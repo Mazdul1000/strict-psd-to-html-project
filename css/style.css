@@ -1,0 +1,208 @@
+
+/* defaults */
+
+.color1{
+    background-color: #f6f9f9;
+}
+/* ************************ */
+
+/* navbar */
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    font-weight: 600;
+    color: #2d3950;
+    text-decoration: none;
+text-transform: uppercase;
+  }
+/* ************************** */
+
+.banner-section{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section .row{
+    min-height: 776px;
+    align-items: center;
+}
+
+.banner-section h1{
+font-size: 120px;
+font-weight: 600;
+color: aliceblue;
+}
+.banner-section p{
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0 50px;
+}
+.banner-section span{
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: #15a4fa;
+}
+.banner-section button{
+    border: 2px solid #15a4fa;
+    color: #fff;
+}
+
+.banner-section button:hover{
+    background-color:#15a4fa;
+    color: #fff;
+}
+
+.banner-section a{
+    color: #fff;
+font-size: 30px;
+transform: translateY(-60px);
+-webkit-transform: translateY(-60px);
+-moz-transform: translateY(-60px);
+display: block;
+animation-name: move;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px);
+         -moz-transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+    }
+}
+
+/* about section */
+
+/* defaults */
+
+.color1{
+    background-color: #f6f9f9;
+}
+/* ************************ */
+
+/* navbar */
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    font-weight: 600;
+    color: #2d3950;
+    text-decoration: none;
+text-transform: uppercase;
+  }
+/* ************************** */
+
+.banner-section{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section .row{
+    min-height: 776px;
+    align-items: center;
+}
+
+.banner-section h1{
+font-size: 120px;
+font-weight: 600;
+color: aliceblue;
+}
+.banner-section p{
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0 50px;
+}
+.banner-section span{
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: #15a4fa;
+}
+.banner-section button{
+    border: 2px solid #15a4fa;
+    color: #fff;
+}
+
+.banner-section button:hover{
+    background-color:#15a4fa;
+    color: #fff;
+}
+
+.banner-section a{
+    color: #fff;
+font-size: 30px;
+transform: translateY(-60px);
+-webkit-transform: translateY(-60px);
+-moz-transform: translateY(-60px);
+display: block;
+animation-name: move;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px);
+         -moz-transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+    }
+}
+
+/* about section */
+.about-section .container{
+    min-height: 190px;
+    
+}
+
+.about-section h2{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.about-section p{
+
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+/* end of about section */
+
+/* Service Section */
+
+.service-section{
+
+}
+
+.service-section .service{
+    
+}
+/* end of service section */
+
+/* Showcase Section */
+.showcase-section{
+
+}
+
+.showcase-section 
+/* end of showcase section */
