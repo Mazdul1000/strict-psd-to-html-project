@@ -195,7 +195,31 @@ animation-direction: alternate;
 }
 
 .service-section .service{
-    
+    text-align: center;
+    align-items: center;
+}
+
+.service-section .service h2{
+font-size: 22px;
+padding: 20px 0 20px;
+
+}
+
+.service-section .service span {
+font-size: 60px;
+background: rgb(40,118,255);
+background: linear-gradient(90deg, rgba(40,118,255,1) 47%, rgba(72,186,255,1) 47%);
+display: block;
+height: 100px;
+width: 100px;
+margin: auto;
+
+}
+.service-section .service p{
+font-size: 15px;
+margin-bottom: 60px;
+
+
 }
 /* end of service section */
 
