@@ -351,8 +351,16 @@ form ul li label{
     margin-left: 15px;
 }
 
-#subscribe{
-    background-color:#999999 ;
+form input[type="checkbox"]{
+   background: #99a0a9;
+   appearance: none;
+   width: 17px;
+   height: 17px;
+   border-radius: 3px;
+   
+    
+    
+    
 }
 
 #send{
