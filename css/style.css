@@ -17,6 +17,11 @@
     color: #2d3950;
     text-decoration: none;
 text-transform: uppercase;
+transition-duration: 0.3s;
+  }
+
+  .navbar-nav .nav-link:hover{
+      color: #15a4fa;
   }
 /* ************************** */
 
@@ -310,6 +315,7 @@ padding-bottom:75px;
 
 .contact-section{
     background: linear-gradient(107deg, rgba(45,57,80,0.8337534843038779) 0%, rgba(45,57,80,0.7385153890657825) 0%),url("../img/Strict.png");
+    padding-bottom: 108px;
 }
 
 .contact-section h1{
@@ -326,9 +332,7 @@ padding-bottom:75px;
     margin: 0;
 }
 
-.contact-section .form-group{
-    
-}
+
 .contact-section .form-control{
     background: transparent;
     border: 1px solid #999999;
@@ -343,25 +347,29 @@ padding-bottom:75px;
     height: 160px;
 }
 
+
 form ul li{
     color: #fff;
 }
 
 form ul li label{
     margin-left: 15px;
+    color: #999999;
 }
 
-form input[type="checkbox"]{
+/* form input[type="checkbox"]{
    background: #99a0a9;
    appearance: none;
    width: 17px;
    height: 17px;
    border-radius: 3px;
+   font-size: 10px;
    
     
     
     
-}
+} */
+
 
 #send{
     background: transparent;
@@ -369,5 +377,43 @@ form input[type="checkbox"]{
     padding: 9px 53px;
     border:1.5px solid #15a4fa;
     border-radius: 3px;
+    transition-duration: 0.4s;
+}
+
+#send:hover{
+    background: rgb(21, 164, 250, 0.5);
 }
 /* end of contact section */
+
+/* footer section */
+footer{
+padding: 25px 0;
+}
+footer p{
+color: #999999;
+margin: 0;
+}
+
+
+
+footer ul li{
+    padding-left: 5px;
+    }
+    footer ul li a{
+    
+        height: 40px;
+        display: block;
+        width: 40px;
+        background: #15a4fa;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 4px;
+        color: #fff;
+        border: 1px solid #15a4fa;
+        transition-duration: 0.3s;
+    }
+
+    footer ul li a:hover{
+        background: transparent;
+    }
+/* end of footer section */
