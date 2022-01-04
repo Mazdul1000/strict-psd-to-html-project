@@ -224,11 +224,23 @@ margin-bottom: 60px;
 
 /* Showcase Section */
 .showcase-section{
+    padding-bottom: 70px;
+}
+.showcase-section h2{
+font-size: 41px;
+padding-top: 80px;
+
+}
+.showcase-section p{
+font-size: 15px;
+padding-top: 20px;
+padding-bottom:75px;
 
 }
 
 .showcase-section .showcase{
     position: relative;
+    margin-bottom: 30px;
 }
 .showcase-section .showcase::before{
     content: "";
@@ -254,9 +266,17 @@ margin-bottom: 60px;
 
 .showcase ul{
     position: absolute;
-    top:50%;
+    top:60%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition-duration: 0.4s;
+    opacity: 0;
+    transition-delay: 0.3s;
+}
+
+.showcase:hover ul{
+    top:50%;
+    opacity: 1;
 }
 
 .showcase ul li{
@@ -274,6 +294,40 @@ margin-bottom: 60px;
     width: 40px;
     text-align: center;
     line-height: 40px;
+    transition-duration: 0.4s;
 
 }
+
+.showcase ul li a:hover{
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    color: #15a4fa;
+}
 /* end of showcase section */
+
+/* contact section */
+
+.contact-section{
+    background: linear-gradient(107deg, rgba(45,57,80,0.8337534843038779) 0%, rgba(45,57,80,0.7385153890657825) 0%),url("../img/Strict.png");
+}
+
+.contact-section h1{
+    font-size: 41px;
+    color: #fff;
+    padding-top: 75px;
+    margin: 0;
+}
+
+.contact-section p{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.contact-section .form-control{
+    background: transparent;
+}
+
+/* end of contact section */
