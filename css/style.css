@@ -190,9 +190,7 @@ animation-direction: alternate;
 
 /* Service Section */
 
-.service-section{
 
-}
 
 .service-section .service{
     text-align: center;
@@ -202,6 +200,7 @@ animation-direction: alternate;
 .service-section .service h2{
 font-size: 22px;
 padding: 20px 0 20px;
+font-weight: 600;
 
 }
 
@@ -228,5 +227,53 @@ margin-bottom: 60px;
 
 }
 
-.showcase-section 
+.showcase-section .showcase{
+    position: relative;
+}
+.showcase-section .showcase::before{
+    content: "";
+    background-color: #15a4fa;
+    opacity: 0.8;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition-duration: 0.4s;
+    
+}
+
+.showcase-section .showcase:hover::before{
+   width: 100%;
+   height: 100%;
+}
+
+.showcase img{
+    width: 100%;
+}
+
+.showcase ul{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.showcase ul li{
+    
+    margin-left: 10px;
+    
+    
+}
+.showcase ul li a{
+    color: #fff;
+    border: 1.5px solid white;
+    border-radius: 2px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+
+}
 /* end of showcase section */
